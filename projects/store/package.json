@@ -1,6 +1,22 @@
 {
   "name": "@hhangular/store",
   "version": "1.16.0",
+  "author": "Achache francois",
+  "license": "MIT",
+  "description": "store module for angular 16x by hhfrancois",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hhangular/store.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "angular",
+    "storage",
+    "browser",
+    "component"
+  ],
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"

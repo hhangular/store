@@ -1,4 +1,4 @@
-name: panoptes-ui
+name: hhangular/store
 run-name: ${{ github.actor }} run build on ${{ github.repository }}
 on: [push]
 jobs:
@@ -7,8 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - run: npm install
       - run: npm run build
       - run: npm publish
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

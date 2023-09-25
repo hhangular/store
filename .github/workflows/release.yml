@@ -12,6 +12,8 @@ jobs:
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
         - run: npm version patch
-        - run: git commit -a -m "Bump version" ; git push --tags
+        - run: git add .
+        - run: git commit -m "Bump version"
+        - run: git push --tags
       
         

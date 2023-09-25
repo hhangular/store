@@ -1,8 +1,8 @@
-name: hhangular/store
+name: build hhangular/store and publish
 run-name: ${{ github.actor }} run build on ${{ github.repository }}
 on:
   push:
-    branches:
+    tags:
       - '*'
 jobs:
   build-angular-lib:
@@ -13,5 +13,6 @@ jobs:
       - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - run: npm install
       - run: npm run build
+      - run: npm publish dist/store/
 
 

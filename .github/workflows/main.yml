@@ -1,4 +1,4 @@
-name: hhangular/store
+name: Build hhangular/store
 run-name: ${{ github.actor }} run build on ${{ github.repository }}
 on:
   push:

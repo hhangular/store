@@ -1,9 +1,8 @@
-name: build hhangular/store and publish
+name: Publish hhangular/store to NPM
 run-name: ${{ github.actor }} run build on ${{ github.repository }}
 on:
   push:
-    tags:
-      - *
+    tags: '*'
 jobs:
   build-angular-lib:
     runs-on: ubuntu-latest

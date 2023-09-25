@@ -10,6 +10,7 @@ jobs:
         - uses: actions/setup-node@v3
         - run: git config user.name "$GITHUB_ACTOR"
         - run: version=$(npm version patch)
+        - run: echo $version
         - run: git branch "releases/$version"
         - run: git push --all
         - run: git push --tags

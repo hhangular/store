@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} run build on ${{ github.repository }}
 on:
   push:
     tags:
-      - '*'
+      - *
 jobs:
   build-angular-lib:
     runs-on: ubuntu-latest

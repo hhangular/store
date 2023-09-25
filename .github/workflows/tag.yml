@@ -13,6 +13,6 @@ jobs:
       - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - run: npm install
       - run: npm run build
-      - run: npm publish dist/store/
+      - run: npm publish dist/
 
 

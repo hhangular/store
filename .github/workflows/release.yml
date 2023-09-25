@@ -12,8 +12,9 @@ jobs:
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
         - run: npm version patch
+        - run: git status
         - run: git add .
-        - run: git commit -m "Bump version"
+        - run: git commit -m "Bump minor version"
         - run: git push --tags
       
         

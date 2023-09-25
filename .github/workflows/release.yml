@@ -15,6 +15,6 @@ jobs:
         - run: |
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-        - run: git commit -a -m "Bump version" ; git push
+        - run: git commit -a -m "Bump version" ; git push --tags
       
       

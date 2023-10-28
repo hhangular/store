@@ -19,10 +19,6 @@ The configuration becomes persistent in different routes, or even a complete rel
  - When reloading the page.
  - When the browser closes/opens.
 
-### Peer dependence
-
-No dependency
-
 ## Decorators
 
  - **LocalStored** is a `decorator` to annotate a 'field' of a class.   
@@ -56,6 +52,10 @@ npm install @hhangular/store --save
 # @hhangular/store
 yarn add @hhangular/store
 ```
+
+### Peer dependence
+
+No dependency
 
 ## Configuration
 

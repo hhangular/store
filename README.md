@@ -4,10 +4,7 @@
 
 [![Publish hhangular/resizable to NPM](https://github.com/hhangular/store/actions/workflows/tag.yml/badge.svg)](https://github.com/hhangular/store/actions/workflows/tag.yml)
 
-## Overview
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
-
-You can read how [here](https://angular.io/guide/creating-libraries)
+[![npm version](https://badge.fury.io/js/@hhangular%2Fstore.svg)](https://badge.fury.io/js/@hhangular%2Fstore)
 
 ## Store your component configurations effortlessly
 

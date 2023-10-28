@@ -1,5 +1,9 @@
 # Store
 
+[![Build hhangular/resizable](https://github.com/hhangular/store/actions/workflows/main.yml/badge.svg)](https://github.com/hhangular/store/actions/workflows/main.yml)
+
+[![Publish hhangular/resizable to NPM](https://github.com/hhangular/store/actions/workflows/tag.yml/badge.svg)](https://github.com/hhangular/store/actions/workflows/tag.yml)
+
 ## Overview
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 

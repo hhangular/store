@@ -1,3 +1,35 @@
+# @hhangular/store — Moved to @softwarity/store                                                                                                                                         
+  > **This package has been migrated to [`@softwarity/store`](https://github.com/softwarity/store).**                                                                                 
+  ## What changed?
+
+  The library has moved from `hhangular` to `softwarity` and has been rewritten for **Angular 19+** with:
+
+  - **Native Proxy deep tracking** — direct array index assignment (`arr[0] = 'x'`), new properties on objects, all mutations tracked automatically
+  - **`$prop()` reactive signals** — each stored property exposes a signal for template bindings
+  - **Stored API** — `localStored()` / `sessionStored()` as a function-based alternative to decorators
+  - **Schema versioning** — discard stale browser data when your schema changes
+  - **Cross-tab sync, SSR support, zoneless**
+
+  ## Migration
+
+  ```bash
+  npm uninstall @hhangular/store
+  npm install @softwarity/store
+
+  Update your imports:
+
+  // Before
+  import { LocalStored, SessionStored, StoreModule } from '@hhangular/store';
+
+  // After
+  import { LocalStored, SessionStored, provideStore } from '@softwarity/store';
+
+  Links
+
+  - New repository: github.com/softwarity/store
+  - NPM: @softwarity/store
+  - Live demo: softwarity.github.io/store
+
 # Store
 
 [![Build hhangular/resizable](https://github.com/hhangular/store/actions/workflows/main.yml/badge.svg)](https://github.com/hhangular/store/actions/workflows/main.yml)

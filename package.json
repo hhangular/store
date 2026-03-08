@@ -41,7 +41,7 @@
     "@angular/platform-browser-dynamic": "^18.0.2",
     "@angular/router": "^18.0.2",
     "@types/jasmine": "~5.1.4",
-    "jasmine-core": "~5.1.1",
+    "jasmine-core": "~5.13.0",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
